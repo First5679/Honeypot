@@ -10,13 +10,13 @@
 ### Запуск honeypot
 ```ruby
   # Базовый запуск с портами по умолчанию
-python3 honeypot_final_lab.py
+python3 honeypot.py
 
   # Запуск с указанием портов и файла логов
-python3 honeypot_final_lab.py --ports 2222,8080,8443 
+python3 honeypot.py --ports 2222,8080,8443 
 
   # Запуск с указанием портов и файла логов
-python3 honeypot_final_lab.py --ports 2222,8080,8443 --log honeypot.log
+python3 honeypot.py --ports 2222,8080,8443 --log honeypot.log
 ```
 ### Параметры командной строки
 * _--host_ — хост для прослушивания (по умолчанию: 0.0.0.0)
